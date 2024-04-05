@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <!--if condition-->
+    <!--
+    {% if a > 20 %}
+     <h1>inside if</h1>
+     <h1>true_condtion</h1>
+    {% endif %}
+    -->
+
+
+
+
+
+    <!-- if-else -->
+    <!--
+    {% if a > b %}
+        <h1>inside if</h1>
+        <h1>a is greater than b</h1>
+
+    {% else %}
+        <h1>inside else</h1>
+        <h1>b is greaterthan a</h1>
+    {% endif %} -->
+
+
+    <!-- if- elif- else-->
+    <!--
+    {% if a > b %}
+        {% if a > c %}
+          <h1>inside if</h1>
+          <h1>a is greater</h1>
+        {% else %}
+          <h1>inside else</h1>
+          <h1>c is greater</h1>
+      {% endif %}
+    {% elif b > c %}
+          <h1>inside elif</h1>
+          <h1>b is greater</h1>
+    {% else %}
+          <h1>inside else</h1>
+          <h1> c is greater</h1>
+    {% endif %} -->
+
+
+
+
+
+
+    <!--nested if-->
+    {% if a > b %}
+        {% if a > c %}
+          <h1>inside if</h1>
+          <h1>a is greater</h1>
+        {% else %}
+          <h1>inside else</h1>
+          <h1>c is greater</h1>
+        {% endif %}
+    {% else %}
+        {% if b > c %}
+          <h1>inside if</h1>
+          <h1>b is greater</h1>
+        {% else %}
+           <h1>inside else</h1>
+           <h1>c is greater</h1>
+        {% endif %}
+    {% endif %} 
+
+
+
+
+       
+        
+
+
+
+    
+
+    </center>
+</body>
+</html>
